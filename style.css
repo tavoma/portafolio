@@ -1,0 +1,80 @@
+body{
+     /* background: linear-gradient(90deg,rgba(253,69,126,1) 0%, rgba(206,255,67,0) 75%); */
+     background: linear-gradient(90deg,rgba(206,255,67,0) 1%, rgba(253,69,126,1) 75%);
+    /* background: linear-gradient(90deg, rgba(206,255,67,1) 0%, rgba(253,69,126,1) 85%); */
+}
+
+#logo{
+    width: 7%;
+    padding-top: 40px;
+    padding-left: 60px;
+}
+
+.escribir{
+    width: 577px;
+    margin-top: 30px;
+    margin-left: 170px;
+
+}
+
+.instruccion{
+    border: none;
+    outline: none;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.informacion{
+    padding-top: 330px;
+    padding-left: 170px;
+}
+
+.vector{
+    float: left;
+}
+
+.informacion p{
+    padding-left: 2em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.botones{
+    padding-top: 2em;
+}
+
+.encriptar{
+    width: 320px;
+    height: 67px;
+    border-radius: 20px;
+}
+
+.encriptar{
+    width: 320px;
+    height: 67px;
+    border-radius: 20px;
+    background-color: #ff4558;
+    border: none;
+    transition: .5s all;
+    cursor: pointer;
+}
+
+.encriptar:hover{
+    background-color: #f43a50;
+    transform: scale(1.1);
+}
+
+.desencriptar{
+    width: 320px;
+    height: 67px;
+    border-radius: 20px;
+    background-color: #e0c7fa;
+    border: none;
+    transition: .5s all;
+    cursor: pointer;
+    margin-left: 2em;
+}
+
+.desencriptar:hover{
+    background-color: #d3aff8;
+    transform: scale(1.1);
+}
